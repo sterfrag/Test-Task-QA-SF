@@ -16,8 +16,8 @@ The python script with the name "Test_Suite.py" tests the api server and produce
 2. First double-click and run the "run_server.bat" file
 3. Second double-click and run the "run_test.bat" file
 #### Prerequisites for manual execution
-a) Python version > 3.6
-b) Installed fastapi --> pip install fastapi
+a) Python version > 3.6 \n
+b) Installed fastapi --> pip install fastapi \n
 c) Installed pydantic --> (usually installed with fastapi) pip install pydantic
 d) Installed typing -->pip install typing
 e) Installed asyncio --> pip install asyncio

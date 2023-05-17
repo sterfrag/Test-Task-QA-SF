@@ -16,18 +16,18 @@ The python script with the name "Test_Suite.py" tests the api server and produce
 2. First double-click and run the "run_server.bat" file
 3. Second double-click and run the "run_test.bat" file
 #### Prerequisites for manual execution
-a) Python version > 3.6 \n
-b) Installed fastapi --> pip install fastapi \n
-c) Installed pydantic --> (usually installed with fastapi) pip install pydantic
-d) Installed typing -->pip install typing
-e) Installed asyncio --> pip install asyncio
-f) Installed uvicorn --> pip install uvicorn
-g) Installed requests --> pip install requests
+<br> a) Python version > 3.6 </br>
+b) Installed fastapi --> pip install fastapi </br>
+c) Installed pydantic --> (usually installed with fastapi) pip install pydantic </br>
+d) Installed typing -->pip install typing </br>
+e) Installed asyncio --> pip install asyncio </br>
+f) Installed uvicorn --> pip install uvicorn </br>
+g) Installed requests --> pip install requests </br>
 
 ### B) Steps for executing the api server & test suite with container
 Unfortunately I was not able to produce a valid dockerized image, due to implementing everything in a windows 7 platform and experiencing difficulties with it. On the other hand i have created a Dockerfile containing all the necessary commands for the creation of the image file. Next, the steps to create the container and execute it are explained in due detail.
 #### Steps for dockerizing
-a) Install Docker client from https://www.docker.com/get-started/
-b) navigate with cmd to the folder where the repo has been created
-c) run on cmd " docker build -t random_name-docker . "// The . at the end of the command specifies that the image will be created in the specified folder
-d) run on cmd " docker run random_name-docker . "
+a) Install Docker client from https://www.docker.com/get-started/ </br>
+b) navigate with cmd to the folder where the repo has been created </br>
+c) run on cmd " docker build -t random_name-docker . "// The . at the end of the command specifies that the image will be created in the specified folder </br>
+d) run on cmd " docker run random_name-docker . " </br>
